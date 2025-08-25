@@ -1,17 +1,13 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: "http",
-        hostname: "localhost",
+        hostname: "152.42.245.36",
         port: "1337",
-        pathname: "/uploads/**/*",
+        pathname: "/uploads/**",
       },
     ],
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 };
 
