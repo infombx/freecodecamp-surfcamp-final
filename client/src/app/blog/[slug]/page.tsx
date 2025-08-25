@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import type { ArticleProps, Block } from "@/types";
 import Link from "next/link";
 import { notFound } from "next/navigation";
