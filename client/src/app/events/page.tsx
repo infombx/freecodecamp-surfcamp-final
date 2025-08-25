@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { ContentList } from "@/components/ContentList";
 import { Card, type CardProps } from "@/components/Card";
 
