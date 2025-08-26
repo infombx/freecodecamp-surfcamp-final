@@ -5,7 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "mbx.hostinetix.com",
-        pathname: "uploads/**",
+        pathname: "/uploads/**",
       },
     ],
   },
