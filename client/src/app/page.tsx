@@ -4,6 +4,16 @@ import { ContentList } from "@/components/ContentList";
 import { getHomePage } from "@/data/loaders";
 import { notFound } from "next/navigation";
 import { BlogCard } from "@/components/BlogCard";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home", // adjust as needed
+  description: "Your homepage description", // optional
+  verification: {
+    google: "Fk4URTqAh8i6pHqtF4xLif8fQdVBAwqlnGG1vFUq77U",
+  },
+};
+
 
 async function loader() {
   const data = await getHomePage();
