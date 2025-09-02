@@ -4,6 +4,16 @@ import { ContentList } from "@/components/ContentList";
 import { getHomePage } from "@/data/loaders";
 import { notFound } from "next/navigation";
 import { BlogCard } from "@/components/BlogCard";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SurfCamp Mauritius | Surfing Holidays & Lessons", // adjust as needed
+  description: "Join SurfCamp in Mauritius for an unforgettable surfing adventure. Surf lessons, camps & ocean fun for all levels.", // optional
+  verification: {
+    google: "Fk4URTqAh8i6pHqtF4xLif8fQdVBAwqlnGG1vFUq77U",
+  },
+};
+
 
 async function loader() {
   const data = await getHomePage();
